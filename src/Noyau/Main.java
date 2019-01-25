@@ -8,6 +8,6 @@ public class Main {
         System.out.println("ptn de ta race");
         System.out.println("ZIZI");
         System.out.println("Coucou");
-        System.out.println("coucou");
+        System.out.println("coucou 1");
     }
 }
