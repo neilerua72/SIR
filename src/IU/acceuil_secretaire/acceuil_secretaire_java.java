@@ -1,7 +1,7 @@
-package IU;
+package IU.acceuil_secretaire;
 
 /**
- * Sample Skeleton for 'page_gleb_pas_compris.fxml' Controller Class
+ * Sample Skeleton for 'acceuil_secretaire.fxml' Controller Class
  */
 
 
@@ -13,7 +13,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.ListView;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.text.Text;
-public class page_gleb_pas_compri {
+public class acceuil_secretaire_java {
 
 
         @FXML // ResourceBundle that was given to the FXMLLoader
@@ -54,16 +54,16 @@ public class page_gleb_pas_compri {
 
         @FXML // This method is called by the FXMLLoader when initialization is complete
         void initialize() {
-            assert comboBoxTrierPar != null : "fx:id=\"comboBoxTrierPar\" was not injected: check your FXML file 'page_gleb_pas_compris.fxml'.";
-            assert text_Valides != null : "fx:id=\"text_Valides\" was not injected: check your FXML file 'page_gleb_pas_compris.fxml'.";
-            assert precriptions != null : "fx:id=\"precriptions\" was not injected: check your FXML file 'page_gleb_pas_compris.fxml'.";
-            assert listView_Valides != null : "fx:id=\"listView_Valides\" was not injected: check your FXML file 'page_gleb_pas_compris.fxml'.";
-            assert scrollPane_Prescriptions != null : "fx:id=\"scrollPane_Prescriptions\" was not injected: check your FXML file 'page_gleb_pas_compris.fxml'.";
-            assert listView_Admissions != null : "fx:id=\"listView_Admissions\" was not injected: check your FXML file 'page_gleb_pas_compris.fxml'.";
-            assert button_NouveauRDV != null : "fx:id=\"button_NouveauRDV\" was not injected: check your FXML file 'page_gleb_pas_compris.fxml'.";
-            assert button_RedigerCompteRendu != null : "fx:id=\"button_RedigerCompteRendu\" was not injected: check your FXML file 'page_gleb_pas_compris.fxml'.";
-            assert text_Admission != null : "fx:id=\"text_Admission\" was not injected: check your FXML file 'page_gleb_pas_compris.fxml'.";
-            assert button_AjouterPatient != null : "fx:id=\"button_AjouterPatient\" was not injected: check your FXML file 'page_gleb_pas_compris.fxml'.";
+            assert comboBoxTrierPar != null : "fx:id=\"comboBoxTrierPar\" was not injected: check your FXML file 'acceuil_secretaire.fxml'.";
+            assert text_Valides != null : "fx:id=\"text_Valides\" was not injected: check your FXML file 'acceuil_secretaire.fxml'.";
+            assert precriptions != null : "fx:id=\"precriptions\" was not injected: check your FXML file 'acceuil_secretaire.fxml'.";
+            assert listView_Valides != null : "fx:id=\"listView_Valides\" was not injected: check your FXML file 'acceuil_secretaire.fxml'.";
+            assert scrollPane_Prescriptions != null : "fx:id=\"scrollPane_Prescriptions\" was not injected: check your FXML file 'acceuil_secretaire.fxml'.";
+            assert listView_Admissions != null : "fx:id=\"listView_Admissions\" was not injected: check your FXML file 'acceuil_secretaire.fxml'.";
+            assert button_NouveauRDV != null : "fx:id=\"button_NouveauRDV\" was not injected: check your FXML file 'acceuil_secretaire.fxml'.";
+            assert button_RedigerCompteRendu != null : "fx:id=\"button_RedigerCompteRendu\" was not injected: check your FXML file 'acceuil_secretaire.fxml'.";
+            assert text_Admission != null : "fx:id=\"text_Admission\" was not injected: check your FXML file 'acceuil_secretaire.fxml'.";
+            assert button_AjouterPatient != null : "fx:id=\"button_AjouterPatient\" was not injected: check your FXML file 'acceuil_secretaire.fxml'.";
 
         }
     }
