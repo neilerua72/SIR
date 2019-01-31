@@ -12,6 +12,6 @@ public class Main {
         System.out.println("AÎE");
         System.out.println("Coucoucoucoucououou");
         System.out.println("Test");
-        System.out.println("Fonction 1");
+        System.out.println("Hugo");
     }
 }
