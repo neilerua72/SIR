@@ -12,5 +12,7 @@ public class Main {
         System.out.println("AÎE");
         System.out.println("Coucoucoucoucououou");
         System.out.println("Test");
+        System.out.println("Hugo");
+        System.out.println("test2hugo");
     }
 }
