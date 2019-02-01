@@ -52,7 +52,7 @@
     </MenuBar>
     <AnchorPane layoutY="25.0" maxHeight="-1.0" maxWidth="-1.0" prefHeight="558.0" prefWidth="881.0" VBox.vgrow="ALWAYS">
          <children>
-            <Button layoutX="687.0" layoutY="67.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="204.0" text="Ajouter un Patient" />
+            <Button fx:id="button_ajouterPatient" layoutX="687.0" layoutY="67.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="204.0" text="Ajouter un Patient" />
             <Text fx:id="texte_rechercherPar" layoutX="14.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rechercher par" />
             <Rectangle fx:id="ractangle_recherche" arcHeight="5.0" arcWidth="5.0" fill="#b8cada00" height="77.0" layoutX="4.0" layoutY="25.0" stroke="#6f6e6ead" strokeLineCap="ROUND" strokeType="INSIDE" width="677.0" />
             <GridPane layoutX="14.0" layoutY="27.0" prefHeight="70.0" prefWidth="684.0">
@@ -93,7 +93,7 @@
                   <TableColumn fx:id="colonne_dossierPatient" prefWidth="102.0" text="Dossier Patient" />
               </columns>
             </TableView>
-            <Button layoutX="687.0" layoutY="24.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="204.0" text="Consulter tous les Dossiers Patients" />
+            <Button fx:id="button_consulterTousLesDP" layoutX="687.0" layoutY="24.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="204.0" text="Consulter tous les Dossiers Patients" />
          </children>
     </AnchorPane>
    </children>

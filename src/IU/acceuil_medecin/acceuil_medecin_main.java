@@ -6,6 +6,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 public class acceuil_medecin_main extends Application {
 
 
@@ -17,8 +19,10 @@ public class acceuil_medecin_main extends Application {
         Parent root = loader.load();
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
+        primaryStage.setTitle("acceuil");
         primaryStage.show();
     }
+
 
     // main method to support non-JavaFX-aware environments:
 
