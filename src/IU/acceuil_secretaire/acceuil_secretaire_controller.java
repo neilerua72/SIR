@@ -13,7 +13,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.ListView;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.text.Text;
-public class acceuil_secretaire_java {
+public class acceuil_secretaire_controller {
 
 
         @FXML // ResourceBundle that was given to the FXMLLoader
